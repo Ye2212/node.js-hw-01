@@ -42,7 +42,7 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
       console.warn("\x1B[31m Unknown action type!");
   }
 };
-// invokeAction({ action: "list" });
+invokeAction({ action: "list" });
 // invokeAction({ action: "get", id: "9" });
 // invokeAction({
 //   action: "add",
