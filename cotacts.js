@@ -32,7 +32,7 @@ async function addContact(name, email, phone) {
   await fs.writeFile(contactsPath, JSON.stringify(newContacts));
   return newContact;
 }
-// addContact("Ye", "ye@gmail.com", "222=33=44");
+// addContact("Ye", "ye@gmail.com", "222-33-44");
 
 module.exports = {
   listContacts,

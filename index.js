@@ -1,14 +1,5 @@
-const fs = require("fs/promises");
-const path = require("path");
-const { argv } = require("process");
-const getAllContacts = require("./cotacts");
-const contactsPath = null;
+const argv = require("yargs").argv;
 const contactsOperations = require("./cotacts");
-
-// contactsOperations.getById
-// contactsOperations.add
-// contactsOperations.updateById
-// contactsOperations.removeById
 
 const invokeAction = async ({ action, id, name, email, phone }) => {
   switch (action) {
@@ -39,10 +30,10 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
       break;
 
     default:
-      console.warn("\x1B[31m Unknown action type!");
+      console.log("Unknown action type!");
   }
 };
-invokeAction({ action: "list" });
+// invokeAction({ action: "list" });
 // invokeAction({ action: "get", id: "9" });
 // invokeAction({
 //   action: "add",
@@ -50,3 +41,4 @@ invokeAction({ action: "list" });
 //   email: "ye@gmail.com",
 //   phone: "222-33-44",
 // });
+// invokeAction(argv);
