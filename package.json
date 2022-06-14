@@ -11,11 +11,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "commander": "^9.3.0",
     "nodemon": "^2.0.16"
   },
   "dependencies": {
     "uuid": "^8.3.2",
-    "yargs": "^17.5.1"
+    "yargs": "^17.5.1",
+    "commander": "^9.3.0"
   }
 }
