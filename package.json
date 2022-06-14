@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "commander": "^9.3.0",
     "nodemon": "^2.0.16"
   },
   "dependencies": {
