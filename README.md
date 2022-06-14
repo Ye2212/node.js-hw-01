@@ -1,5 +1,4 @@
-1. list: https://ibb.co/QDSFNLN;
-2. get: https://ibb.co/2qpqtZC;
-3. add: https://ibb.co/dkfRdwG;
-4. remove: https://ibb.co/wrJSrss;
-   <a href ="https://ibb.co/QDSFNLN">link</a>
+1. <a href ="https://ibb.co/QDSFNLN">list</a>
+2. <a href = "https://ibb.co/2qpqtZC">get</a>
+3. <a href="https://ibb.co/dkfRdwG">add</a>
+4. <a href = " https://ibb.co/wrJSrss">remove</a>
